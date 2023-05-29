@@ -1,0 +1,154 @@
+nav {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #555;
+}
+
+
+.user-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.username {
+  margin-right: 10px;
+}
+
+.preferiti-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.preferiti-link:hover {
+  text-decoration: underline;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+
+body {
+  background-image: url("prova4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  height: 100%;
+
+}
+
+.profile {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 400px;
+  
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+}
+
+
+@media(max-width: 700px)
+{
+  header h1
+  {
+    font-size: 22px;
+  }
+
+  nav a
+  {
+    font-size: 13px;
+  }
+
+  .username
+  {
+    font-size: 13px;
+  }
+
+  .btn
+	{
+		padding: 8px 15px;
+	}
+
+  .profile
+  {
+      height: 300px;
+      width: 300px;
+  }
+
+  .profile-image
+  {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-info
+  {
+    font-size: 15px;
+  }
+
+
+}

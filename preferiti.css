@@ -1,0 +1,250 @@
+
+
+
+.nome-allenatore {
+  font-size: 17px;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+ 
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+
+  
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .user-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .username {
+    margin-right: 10px;
+  }
+  
+  .preferiti-link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .preferiti-link:hover {
+    text-decoration: underline;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background-color: #555;
+  }
+
+  
+
+  nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: #555;
+  }
+
+  .profile-wrapper {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .team-card {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .team-card img {
+    max-width: 100%;
+  }
+  
+  .team-card h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .team-card p {
+    margin-bottom: 10px;
+  }
+
+
+
+.contenuto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.foto-stadio {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.nome-squadra {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.nome-stadio {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.preferiti {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.remove-button {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.remove-button:hover {
+  background-color: #6c0f2e;
+}
+
+.contenuto > div {
+  flex: 1;
+}
+
+
+@media(max-width: 700px)
+{
+  header h1
+  {
+    font-size: 22px;
+  }
+
+  nav a
+  {
+    font-size: 13px;
+  }
+
+  .username
+  {
+    font-size: 13px;
+  }
+
+
+  .btn
+	{
+		padding: 8px 15px;
+	}
+
+  .logo
+  {
+    height: 70px;
+    width: 70px;
+  }
+  .nome-squadra
+  {
+    font-size: 17px;
+  }
+  .nome-stadio
+  {
+      font-size: 14px;
+  }
+
+  .foto-stadio
+  {
+    width: 120px;
+    height: 100px;
+  }
+
+}
